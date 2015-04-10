@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'sfotipy';
+	src:url('fonts/sfotipy.eot?829uw5');
+	src:url('fonts/sfotipy.eot?#iefix829uw5') format('embedded-opentype'),
+		url('fonts/sfotipy.woff?829uw5') format('woff'),
+		url('fonts/sfotipy.ttf?829uw5') format('truetype'),
+		url('fonts/sfotipy.svg?829uw5#sfotipy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'sfotipy';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail:before {
+	content: "\e945";
+}
+
+.icon-user:before {
+	content: "\e971";
+}
+
+.icon-spinner11:before {
+	content: "\e984";
+}
+
+.icon-search:before {
+	content: "\e986";
+}
+
+.icon-lock:before {
+	content: "\e98f";
+}
+
+.icon-menu:before {
+	content: "\e9bd";
+}
+
+.icon-love:before {
+	content: "\e9da";
+}
+
+.icon-add:before {
+	content: "\ea0a";
+}
+
+.icon-play2:before {
+	content: "\ea15";
+}
+
+.icon-pause:before {
+	content: "\ea16";
+}
+
+.icon-stop:before {
+	content: "\ea17";
+}
+
+.icon-prev:before {
+	content: "\ea18";
+}
+
+.icon-next:before {
+	content: "\ea19";
+}
+
+.icon-mute:before {
+	content: "\ea2a";
+}
+
+.icon-vol:before {
+	content: "\ea2b";
+}
+
+.icon-volmenos:before {
+	content: "\ea2c";
+}
+
+.icon-random:before {
+	content: "\ea30";
+}
+
+.icon-share:before {
+	content: "\ea7d";
+}
+
