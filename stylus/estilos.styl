@@ -3,6 +3,7 @@
 
 gris_oscuro = #333333
 gris_claro = #818181
+fusia = #BD255B
 
 a
 	text-decoration none
@@ -12,18 +13,33 @@ body
 
 figure
 	margin 0
-
+img
+	vertical-aling top
 .button-menu
+	color gris_oscuro
+	left .5em
+	margin-top -10px
 	position absolute
 	top 50%
-	margin-top -10px
-	left .5em
 
 .container
 	padding 1.4rem
 	font-size 0
 	text-align center
-
+.actions
+	background-color rgba(black,.3)
+	bottom 0
+	left 0
+	position absolute
+	right 0
+.action
+	color white
+	font-size 1.3em
+	margin-right .6em
+	&:last-child
+		margin-right 0
+	&.gray
+		color gris_claro
 .border-bottom
 	border-bottom 1px solid gris_claro 
 
@@ -38,7 +54,50 @@ figure
 
 .autor
 	color gris_claro
-
+	
+.center-block
+	margin 0 auto
+.center-text
+	text-align center
+.right-text
+	text-align right
+.padding
+	padding 1em
+.padding-tb
+	padding 1em 0
+	
+.progress
+	margin 1em 0
+	position relative
+	.min
+	.max
+		font-size .8em
+		position absolute
+		top -5px
+	.min
+		left 0
+	.max
+		right 0
+	.total
+		background gris_claro
+		border-radius 4px
+		height 5px
+		margin 0 auto
+		width 75%
+	.state
+		background fusia
+		border-radius 4px
+		height 5px
+		position relative
+		width 30%
+	.circle
+		background gris_oscuro
+		border-radius 50%
+		height 10px
+		position absolute
+		right 0
+		top -2px
+		width 10px
 .header
 	height 3.5em
 	//a 
@@ -60,8 +119,9 @@ figure
 			margin-right 0
 	p
 		margin .5em 0
-
-
+.playing
+	&.small
+		width 20em
 
 
 
