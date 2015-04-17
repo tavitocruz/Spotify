@@ -107,7 +107,6 @@ img
 		text-align center
 		margin 0
 		line-height 3.5em
-
 .song
 	width 8rem
 	display inline-block
@@ -120,11 +119,17 @@ img
 	p
 		margin .5em 0
 .playing
+	display none
 	&.small
 		width 20em
 
+@media screen and (min-width:480px)
 
-
+	body
+		background red
+	.song
+		&:nth-child(even)
+			margin-right 1em
 
 
 
